@@ -23,4 +23,4 @@ Assuming you've done this correctly, this part can take a while. For my 200 mb m
 5. Alright, now we're ready to have some fun, run the following command:
 `python generate.py output.txt`
 
-You'll probably run into some bugs; I haven't thoroughly tested the program quite yet.
+You'll probably run into some bugs; I haven't thoroughly tested the program quite yet. Feel free to submit a PR or shoot me an email (listed in my bio).
