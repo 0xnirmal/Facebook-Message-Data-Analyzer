@@ -13,9 +13,7 @@ Features that will be Implemented Soon:
 The setup for this tool is admittedly pretty annoying to setup.
 
 1. Navigate to facebook.com and then to your account settings. Click on the general tab and then at the bottom of the page you should see an icon to request your facebook data. Once you click this button, facebook will send you an email saying that they are processing your request. After 2-3 hours, you should get another email with a link to all of your facebook data ever (nuts, I know).
-
 ![alt text](screenshots/request.jpg)
-
 2. Clone this directory in the directory of your downloaded facebook files.
 3.
 ```
