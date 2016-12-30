@@ -1,0 +1,16 @@
+# Compiled source #
+###################
+*.pyc
+
+# Text Files #
+######################
+*.txt
+*.html
+*.htm
+
+# Directories to ignore #
+#########################
+env/
+html/
+photos/
+videos/
