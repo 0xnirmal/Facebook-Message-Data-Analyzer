@@ -17,7 +17,8 @@ The setup for this tool is admittedly pretty annoying to setup.
 ![alt text](screenshots/request.jpg)
 
 2. Clone this directory in the directory of your downloaded facebook files.
-3. ```
+3.
+```
 pip install -r requirements.txt
 ```
 4. The way facebook stores your messages is in an extremely annoying html file. So the first part of this tool converts the annoying html to usable JSON (pickle) we can actually do stuff with. Run the following command
