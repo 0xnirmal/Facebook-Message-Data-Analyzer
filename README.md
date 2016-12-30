@@ -7,7 +7,8 @@ Features Include:
 * Getting the complete chat history of a single user.
 
 Features that will be Implemented Soon:
-* Sentiment Score analysis: see who is the most positive/negative in a group chat.
+* Sentiment Score Analysis: see who is the most positive/negative in a group chat.
+* Automatically generated graphs.
 
 ##Setup##
 The setup for this tool is admittedly pretty annoying to setup.
@@ -21,3 +22,5 @@ The setup for this tool is admittedly pretty annoying to setup.
 Assuming you've done this correctly, this part can take a while. For my 200 mb messages.htm file, it took nearly an hour.
 5. Alright, now we're ready to have some fun, run the following command:
 `python generate.py output.txt`
+
+You'll probably run into some bugs; I haven't thoroughly tested the program quite yet.
