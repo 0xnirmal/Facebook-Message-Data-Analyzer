@@ -2,9 +2,8 @@
 ###################
 *.pyc
 
-# Text Files #
+# Web Files #
 ######################
-*.txt
 *.html
 *.htm
 
@@ -14,3 +13,4 @@ env/
 html/
 photos/
 videos/
+my_files/
