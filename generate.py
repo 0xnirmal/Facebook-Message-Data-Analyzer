@@ -49,7 +49,15 @@ def main():
 			thread_counter(thread_to_analyze)
 			print("\n")
 		elif choice == 2:
-			pass
+			user_to_analyze = raw_input("User to analyze: ")
+			for thread in threads:
+				if user_to_analyze in thread.participants:
+					for message in thread.messages:
+						if message.user == user_to_analyze:
+							try:
+								print(message.text)
+							except UnicodeEncodeError:
+								print("An error occurred with this message. Skipping...")
 		elif choice == 3:
 			input_string = raw_input("Enter a list of users separated by commas with no spaces between one name and the next (ex: Bob Smith,John Doe,Jane Doe): \n")
 			specific_user_string = raw_input("Do you want the messages of a specific user? (y/n,FirstName LastName)")
