@@ -80,13 +80,6 @@ def main():
 						input_dictionary[participant] += temp_dict[participant]
 			for participant in input_dictionary:
 				print('User: {}, Messages Sent: {}'.format(unicode(participant), input_dictionary[participant]))
-		# user_to_analyze = raw_input("User to analyze: ")
-		# for message in thread_to_analyze.messages:
-		# 	if message.user == user_to_analyze:
-		# 		try:
-		# 			print(message.text)
-		# 		except UnicodeEncodeError:
-		# 			print('An error occurred with this thread. Skipping...')
 
 if __name__ == "__main__":
 	main()
